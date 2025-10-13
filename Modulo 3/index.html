@@ -25,11 +25,15 @@ header {
 }
 
 .img-header {
-    background: transparent url('../img/bg-header.jpg') 0% 0% no-repeat padding-box;
-    top: 73px;
-    left: 0px;
-    width: 1280px;
-    height: 727px;
+    width:100%; 
+    height:auto;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    margin: 20px;
+    wrap: wrap;
 }
     </style>
 
@@ -39,6 +43,19 @@ header {
     <header>
         IGUANAS
     </header>
-    <div class="img-header"></div>
+    <div>
+        <img class="img-header" src="Assets/img/bg-header.jpg" alt="Iguana">
+    </div>
+    <div class="container">
+        <div>
+        la iguana es un género de reptiles escamosos de la familia Iguanidae. 
+        Son nativos de México, América Central, Sudamérica y el Caribe. 
+        La mayoría de las especies son herbívoras y se encuentran en hábitats tropicales y 
+        subtropicales.
+        </div>
+        <div>
+            <img src="Assets/img/iguana-1.jpg">
+        </div>
+    </div>
 </body>
 </html>
